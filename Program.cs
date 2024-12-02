@@ -32,5 +32,7 @@ app.MapControllerRoute(
     "admin/{action=Admin}/{id?}",
     new { controller = "Admin", action = "Admin" }
 );
+
+
 // Chạy ứng dụng
 app.Run();
